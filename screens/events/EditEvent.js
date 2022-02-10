@@ -13,7 +13,7 @@ import { useNavigation } from '@react-navigation/native';
 
 import { Feather } from '@expo/vector-icons'
 
-import ENV from '../../env';
+const ENV = process.env
 import ImgPicker from '../../components/app/EventPicker';
 import { showMessage } from "react-native-flash-message";
 import { useDispatch, useSelector } from 'react-redux';

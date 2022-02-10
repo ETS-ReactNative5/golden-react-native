@@ -12,7 +12,7 @@ import { showMessage } from "react-native-flash-message";
 import { timeDifference } from '../../helpers/timeDifference';
 
 import Colors from '../../constants/Colors';
-import ENV from '../../env';
+const ENV = process.env
 import { useDispatch, useSelector } from "react-redux";
 import HighlightText from '@sanar/react-native-highlight-text';
 import * as postActions from '../../store/actions/posts';

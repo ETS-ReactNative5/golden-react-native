@@ -7,7 +7,7 @@ import {
     MenuTrigger,
     renderers
 } from 'react-native-popup-menu';
-import ENV from '../../env';
+const ENV = process.env
 
 const { SlideInMenu } = renderers;
 import { useDispatch, useSelector } from "react-redux";

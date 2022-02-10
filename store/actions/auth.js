@@ -1,5 +1,5 @@
 import { AsyncStorage } from 'react-native';
-import ENV from '../../env';
+const ENV = process.env
 
 export const AUTHENTICATE = 'AUTHENTICATE';
 export const LOGOUT = 'LOGOUT';
@@ -51,7 +51,7 @@ export const signup = (username, email, password, phoneNumber, expoPushToken) =>
         }
 
         return resData.message;
-    };
+    }; 
 };
 
 

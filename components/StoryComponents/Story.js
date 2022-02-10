@@ -8,7 +8,7 @@ import {
   FontAwesome, AntDesign, MaterialCommunityIcons,
   Octicons
 } from '@expo/vector-icons';
-import ENV from '../../env';
+const ENV = process.env
 
 import { useDispatch, useSelector } from 'react-redux';
 

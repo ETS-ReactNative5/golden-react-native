@@ -15,7 +15,7 @@ import {
 import { useNavigation } from '@react-navigation/native';
 
 
-import ENV from '../../env';
+const ENV = process.env
 
 import * as eventActions from '../../store/actions/event';
 import * as usersActions from '../../store/actions/users';

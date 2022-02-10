@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, FlatList, Image, TouchableOpacity, ImageBackgro
 import { useNavigation } from '@react-navigation/native';
 
 import Colors from '../../constants/Colors';
-import ENV from '../../env';
+const ENV = process.env
 import { useDispatch } from 'react-redux';
 import { showMessage } from "react-native-flash-message";
 import VerifiedUser from '../../constants/VerifiedUser';

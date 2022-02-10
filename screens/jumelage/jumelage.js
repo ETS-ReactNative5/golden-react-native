@@ -30,7 +30,7 @@ import * as usersActions from '../../store/actions/users';
 import * as postsActions from '../../store/actions/posts';
 
 import { useDispatch, useSelector } from "react-redux";
-import ENV from '../../env';
+const ENV = process.env
 import MenuItem from "../../components/UI/MenuItem";
 import JUmelageMenu from "../../components/UI/JumelageMenu";
 import InviteMenu from "../../components/UI/InviteJumMenu";

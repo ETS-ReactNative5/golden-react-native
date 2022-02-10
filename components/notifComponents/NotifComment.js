@@ -12,7 +12,7 @@ import { Feather, Ionicons, Entypo } from '@expo/vector-icons'
 import { timeDifference } from '../../helpers/timeDifference';
 
 import Colors from '../../constants/Colors';
-import ENV from '../../env';
+const ENV = process.env
 import { useDispatch, useSelector } from "react-redux";
 
 import { TransText, TranslationConsumer } from 'react-native-translation';

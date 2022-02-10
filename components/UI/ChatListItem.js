@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity, ImageBackground, TouchableWithoutFeedback } from 'react-native';
 
-import ENV from '../../env';
+const ENV = process.env
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigation } from '@react-navigation/native';
 import { timeDifference } from '../../helpers/timeDifference';

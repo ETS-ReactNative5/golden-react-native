@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Image, ScrollView, Alert, TouchableOpacity } fr
 import Colors from '../../constants/Colors';
 import { useNavigation } from '@react-navigation/native';
 import { Ionicons, AntDesign } from '@expo/vector-icons'
-import ENV from '../../env';
+const ENV = process.env
 
 import * as ImagePicker from 'expo-image-picker';
 import * as Permissions from 'expo-permissions';

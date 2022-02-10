@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { View, Image, StyleSheet, Text, ActivityIndicator, Dimensions, Modal, ImageBackground } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigation } from '@react-navigation/native';
-import ENV from '../../env';
+const ENV = process.env
 
 
 import {

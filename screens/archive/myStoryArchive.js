@@ -18,7 +18,7 @@ import Colors from '../../constants/Colors';
 import { useNavigation } from '@react-navigation/native';
 
 
-import ENV from '../../env';
+const ENV = process.env
 import Diamand from '../loader'
 
 

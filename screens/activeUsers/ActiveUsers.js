@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { useNavigation } from '@react-navigation/native';
 
-import ENV from '../../env';
+const ENV = process.env
 
 import * as usersActions from '../../store/actions/users';
 import { TouchableOpacity } from 'react-native-gesture-handler';

@@ -14,7 +14,7 @@ import Colors from '../../constants/Colors';
 import { showMessage } from "react-native-flash-message";
 import { useNavigation } from '@react-navigation/native';
 
-import ENV from '../../env';
+const ENV = process.env
 import VerifiedUser from '../../constants/VerifiedUser';
 
 

@@ -1,4 +1,4 @@
-import ENV from '../../env';
+const ENV = process.env
 
 export const DELETE_STORY = "DELETE_STORY";
 export const CREATE_STORY = "CREATE_STORY";

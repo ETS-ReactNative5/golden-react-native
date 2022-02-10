@@ -8,7 +8,7 @@ import { TransText } from 'react-native-translation';
 import { timeDifference } from '../../helpers/timeDifference';
 
 import Colors from '../../constants/Colors';
-import ENV from '../../env';
+const ENV = process.env
 import { useDispatch, useSelector } from "react-redux";
 
 import * as notifAcctions from '../../store/actions/notifs';

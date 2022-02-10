@@ -6,7 +6,7 @@ import * as usersActions from '../../store/actions/users';
 import ImgPicker from '../../components/app/ImgPicker';
 import Colors from '../../constants/Colors';
 
-import ENV from '../../env';
+const ENV = process.env
 import { showMessage } from "react-native-flash-message";
 
 const EditProfileScreen = (props) => {

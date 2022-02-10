@@ -7,7 +7,7 @@ import Card from '../../components/UI/Card';
 import { timeDifference } from '../../helpers/timeDifference';
 
 import Colors from '../../constants/Colors';
-import ENV from '../../env';
+const ENV = process.env
 import { useDispatch, useSelector } from "react-redux";
 
 

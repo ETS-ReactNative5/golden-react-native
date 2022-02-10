@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 
 import * as postsActions from '../../store/actions/posts';
 import * as usersActions from '../../store/actions/users';
-import ENV from '../../env';
+const ENV = process.env
 
 import Colors from '../../constants/Colors';
 import { showMessage } from "react-native-flash-message";

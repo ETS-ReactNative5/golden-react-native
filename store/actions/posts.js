@@ -1,4 +1,4 @@
-import ENV from '../../env';
+const ENV = process.env
 
 export const DELETE_POST = "DELETE_POST";
 export const CREATE_POST = "CREATE_POST";

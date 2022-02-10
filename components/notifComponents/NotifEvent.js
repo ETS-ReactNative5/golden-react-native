@@ -11,7 +11,7 @@ import { timeDifference } from '../../helpers/timeDifference';
 import Colors from '../../constants/Colors';
 
 import { useDispatch, useSelector } from "react-redux";
-import ENV from '../../env';
+const ENV = process.env
 
 import { TransText, TranslationConsumer } from 'react-native-translation';
 

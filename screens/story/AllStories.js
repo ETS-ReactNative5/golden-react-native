@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import * as storiesActions from '../../store/actions/stories';
 import * as usersActions from '../../store/actions/users';
-import ENV from '../../env';
+const ENV = process.env
 
 
 

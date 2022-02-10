@@ -25,7 +25,7 @@ import UserPostsScreen, { screenOptions as userPostsScreenOptions } from '../scr
 import EditProfileScreen, { screenOptions as editProfileScreenOptions } from '../screens/user/EditProfileScreen';
 
 import { useSelector, useDispatch } from "react-redux";
-import ENV from '../env';
+const ENV = process.env
 
 
 import DuoListScreen, { screenOptions as DuoListScreenOptions } from '../screens/chat/DuoListScreen';

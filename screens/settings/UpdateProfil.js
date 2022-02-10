@@ -11,7 +11,7 @@ import { AntDesign } from '@expo/vector-icons'
 import moment from "moment";
 import Tags from "react-native-tags";
 
-import ENV from '../../env';
+const ENV = process.env
 import { showMessage } from "react-native-flash-message";
 
 const UpdateProfil = (props) => {

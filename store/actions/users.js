@@ -1,4 +1,4 @@
-import ENV from '../../env';
+const ENV = process.env
 
 export const SET_USERS = 'SET_USERS';
 import { AsyncStorage } from 'react-native';

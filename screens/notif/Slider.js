@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 
 import { StatusBar, ImageBackground, Image, Animated, Text, View, Dimensions, StyleSheet, TouchableOpacity, Easing, SafeAreaViewBase, SafeAreaView } from 'react-native';
 import { useSelector } from 'react-redux';
-import ENV from '../../env';
+const ENV = process.env
 
 
 

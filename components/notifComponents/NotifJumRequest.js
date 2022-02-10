@@ -13,7 +13,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { timeDifference } from '../../helpers/timeDifference';
 
 import Colors from '../../constants/Colors';
-import ENV from '../../env';
+const ENV = process.env
 
 import * as notifAcctions from '../../store/actions/notifs';
 const twin = {

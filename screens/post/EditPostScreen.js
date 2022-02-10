@@ -9,7 +9,7 @@ import * as postActions from '../../store/actions/posts';
 import ImgPicker from '../../components/app/EditPostPicker';
 import Colors from '../../constants/Colors';
 
-import ENV from '../../env';
+const ENV = process.env
 import { showMessage } from "react-native-flash-message";
 
 const EditPostScreen = (props) => {

@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, FlatList, Image, ImageBackground, Alert, Activi
 
 import Comment from '../../components/UI/Comment';
 import { useSelector, useDispatch } from 'react-redux';
-import ENV from '../../env';
+const ENV = process.env
 import {
     FontAwesome, MaterialIcons, MaterialCommunityIcons,
     Octicons

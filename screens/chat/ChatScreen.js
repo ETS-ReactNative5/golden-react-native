@@ -6,7 +6,7 @@ import { GiftedChat, InputToolbar, Send, Bubble } from 'react-native-gifted-chat
 import * as chatActions from '../../store/actions/chat';
 
 import socketIO from 'socket.io-client';
-import ENV from '../../env';
+const ENV = process.env
 import { SimpleLineIcons, MaterialIcons, AntDesign } from '@expo/vector-icons'
 import Colors from '../../constants/Colors';
 import VerifiedUser from '../../constants/VerifiedUser';

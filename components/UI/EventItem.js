@@ -8,7 +8,7 @@ import { useNavigation } from '@react-navigation/native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { timeDifference } from '../../helpers/timeDifference';
 import Colors from '../../constants/Colors';
-import ENV from '../../env';
+const ENV = process.env
 import { useDispatch } from 'react-redux';
 import * as eventActions from '../../store/actions/event';
 import { showMessage } from "react-native-flash-message";

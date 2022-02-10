@@ -13,7 +13,7 @@ import Highlighter from 'react-native-highlight-words';
 
 import { useNavigation } from '@react-navigation/native';
 
-import ENV from '../../env';
+const ENV = process.env
 import Diamand from '../loader'
 
 import * as postsActions from '../../store/actions/posts';

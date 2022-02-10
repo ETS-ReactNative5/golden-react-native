@@ -24,7 +24,7 @@ import {
 import { fakeUsersLocations, mapDarkStyle, fakeLocations } from './dataEvents';
 
 
-import ENV from '../../env';
+const ENV = process.env
 
 import { useTheme } from '@react-navigation/native';
 

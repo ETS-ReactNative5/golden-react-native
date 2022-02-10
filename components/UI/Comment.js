@@ -10,7 +10,7 @@ import {
 import { MaterialCommunityIcons, Octicons } from '@expo/vector-icons';
 import { useSelector } from "react-redux";
 
-import ENV from '../../env';
+const ENV = process.env
 import { timeDifference } from '../../helpers/timeDifference';
 import VerifiedUser from '../../constants/VerifiedUser';
 import Colors from '../../constants/Colors';

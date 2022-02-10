@@ -10,7 +10,7 @@ import { useNavigation } from '@react-navigation/native';
 
 import { timeDifference } from '../../helpers/timeDifference';
 import Colors from '../../constants/Colors';
-import ENV from '../../env';
+const ENV = process.env
 
 import { useDispatch, useSelector } from 'react-redux';
 

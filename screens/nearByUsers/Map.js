@@ -23,7 +23,7 @@ import {
 import { fakeUsersLocations, mapDarkStyle, fakeLocations } from './mapData';
 
 
-import ENV from '../../env';
+const ENV = process.env
 
 import { useTheme } from '@react-navigation/native';
 import { ImageBackground } from 'react-native';

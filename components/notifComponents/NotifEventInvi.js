@@ -6,7 +6,7 @@ import { useNavigation } from '@react-navigation/native';
 
 import { useDispatch, useSelector } from 'react-redux';
 import * as notifAcctions from '../../store/actions/notifs';
-import ENV from '../../env';
+const ENV = process.env
 import { TransText } from 'react-native-translation';
 
 

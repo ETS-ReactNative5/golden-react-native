@@ -1,4 +1,4 @@
-import ENV from '../../env';
+const ENV = process.env
 
 
 export const SET_CHAT_LIST = 'SET_CHAT_LIST';

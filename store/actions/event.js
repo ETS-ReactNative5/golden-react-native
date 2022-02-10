@@ -1,4 +1,4 @@
-import ENV from '../../env';
+const ENV = process.env
 
 export const DELETE_EVENT = "DELETE_EVENT";
 export const CREATE_EVENT = "CREATE_EVENT";

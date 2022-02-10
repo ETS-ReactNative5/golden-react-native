@@ -9,7 +9,7 @@ import { useNavigation } from '@react-navigation/native';
 import { timeDifference } from '../../helpers/timeDifference';
 
 import Colors from '../../constants/Colors';
-import ENV from '../../env';
+const ENV = process.env
 import { useDispatch } from 'react-redux';
 import * as storiesActions from '../../store/actions/stories';
 import { showMessage } from "react-native-flash-message";

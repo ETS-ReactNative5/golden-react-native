@@ -2,7 +2,7 @@
 import React from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View, Alert } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-import ENV from '../../env';
+const ENV = process.env
 import { timeDifference } from '../../helpers/timeDifference';
 import { MaterialCommunityIcons } from '@expo/vector-icons'
 import * as storyActions from '../../store/actions/stories';

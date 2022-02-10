@@ -3,7 +3,7 @@ import { View, Text, ImageBackground, FlatList, Image, TouchableOpacity } from '
 import Colors from '../../constants/Colors';
 
 import { useSelector, useDispatch } from "react-redux";
-import ENV from '../../env';
+const ENV = process.env
 import * as userActions from '../../store/actions/users';
 import { showMessage } from "react-native-flash-message";
 import Diamand from '../loader'

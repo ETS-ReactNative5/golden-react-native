@@ -13,7 +13,7 @@ import MapView, { Marker, PROVIDER_GOOGLE } from "react-native-maps";
 import Diamand from '../loader';
 
 import { timeDifference, upComingEvents } from '../../helpers/timeDifference';
-import ENV from '../../env';
+const ENV = process.env
 import EventMenu from "../../components/UI/EventMenu";
 import { Platform } from 'react-native';
 
